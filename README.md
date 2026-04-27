@@ -147,6 +147,8 @@ DUNET/
 📜 Citation
 
 If you find this code or our paper useful for your research, please cite:
+
+```bibtex
 @article{fang2024dunet,
   title={Deep Unfolding Network Enhanced by Transformer Priors for Unregistered Hyperspectral and Multispectral Image Fusion},
   author={Fang, Jian and Yang, Jingxiang and Khader, Abdolraheem and Xiao, Liang},
@@ -157,7 +159,7 @@ If you find this code or our paper useful for your research, please cite:
   publisher={IEEE},
   doi={10.1109/TGRS.2024.3460186}
 }
-
+```
 
 📄 License
 
