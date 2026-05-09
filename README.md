@@ -1,11 +1,6 @@
 # DUNET
 DUNET: Deep Unfolding Network Enhanced by Transformer Priors for Unregistered Hyperspectral and Multispectral Image Fusion
 
-https://img.shields.io/badge/License-MIT-blue.svg](LICENSE)
-https://img.shields.io/badge/PyTorch-2.0+-red.svg](https://pytorch.org/)
-
-This repository is the official PyTorch implementation of the IEEE TGRS 2024 paper: "Deep Unfolding Network Enhanced by Transformer Priors for Unregistered Hyperspectral and Multispectral Image Fusion".
-
 📖 Overview
 
 Fusing a Low-Resolution Hyperspectral Image (LR-HSI) with a High-Resolution Multispectral Image (HR-MSI) to generate a High-Resolution HSI (HR-HSI) is a crucial yet ill-posed problem. Most existing methods critically depend on the precise registration of the input images, which is often unavailable in real-world satellite remote sensing scenarios due to differing acquisition conditions.
