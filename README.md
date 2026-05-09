@@ -113,33 +113,6 @@ python test.py --dataset ICVL --data_path ./data/ICVL/test --model_path ./checkp
 Use a trained model to fuse your own unregistered LR-HSI and HR-MSI pair.
 python predict.py --lrhsi_path ./your_data/lr.hdr --hrmsi_path ./your_data/msi.tif --model_path ./checkpoints/best_model.pth --output_path ./fused_result.hdr
 
-
-📁 Project Structure
-
-
-DUNET/
-├── data/                   # Data loading and preprocessing utilities
-│   ├── prepare_data.py    # Script to prepare datasets (Wald's protocol)
-│   └── datasets.py        # PyTorch Dataset classes
-├── models/                # Network architecture
-│   ├── dunet.py          # Main DUNET model definition
-│   ├── hat.py            # Hybrid Attention Transformer (HAT) block
-│   ├── sf_block.py       # Spatial-Frequency Block (SFB)
-│   └── proximal.py       # Deep proximal operator (HAT + SFB)
-├── utils/
-│   ├── mi_registration.py # Mutual Information initialization module
-│   ├── metrics.py         # Evaluation metrics (MPSNR, SAM, ERGAS, etc.)
-│   └── logger.py          # Training logger
-├── configs/               # Configuration files for different datasets
-├── checkpoints/           # Directory for saving trained models
-├── results/               # Directory for saving test outputs
-├── train.py              # Main training script
-├── test.py               # Main testing and evaluation script
-├── predict.py            # Inference script for new data
-├── requirements.txt      # Python dependencies
-└── README.md             # This file
-
-
 📜 Citation
 
 If you find this code or our paper useful for your research, please cite:
