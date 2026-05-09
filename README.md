@@ -39,19 +39,15 @@ Core Components (Refer to Figure 1 in the paper):
 Quantitative results (average) on the ICVL, Chikusei, and Houston datasets with a scaling factor of 4 and simulated misalignment. DUNET achieves consistent improvements.
 
 ICVL Dataset (2° rotation) - Selected Metrics:
-Method MPSNR (dB) ↑ SAM (degree) ↓ ERGAS ↓ MSSIM ↑
 
-CNMF 29.97 2.83 5.22 0.907
-
-HySure 29.22 7.17 5.71 0.838
-
-u²-MDN 43.15 6.44 1.44 0.943
-
-MSST 45.38 1.87 0.67 0.994
-
-MoE-PNP 34.93 5.20 2.65 0.976
-
-DUNET (Ours) 48.81 1.56 0.56 0.995
+| Method | MPSNR | SAM | ERGAS  | MSSIM |
+|--------|-------|-----|-------|-------|
+| CNMF | 29.97 | 2.83 | 5.22 | 0.907 |
+| HySure | 29.22 | 7.17 | 5.71 | 0.838 |
+| u²-MDN | 43.15 | 6.44 | 1.44 | 0.943 |
+| MSST | 45.38 | 1.87 | 0.67 | 0.994 | 
+| MoE-PNP | 34.93 | 5.20 | 2.65 | 0.976 |
+| DUNET (Ours) | 48.81 | 1.56 | 0.56 | 0.995 |
 
 Note: DUNET achieves improvements of 3.4 dB, 5.1 dB, and 8.2 dB in PSNR over the latest methods on the ICVL, Chikusei, and Houston datasets, respectively. Please refer to Tables I-III in the paper for complete results across all datasets, rotation angles, and evaluation metrics (RMSE, UIQI).
 
